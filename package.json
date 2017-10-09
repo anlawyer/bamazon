@@ -1,0 +1,27 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "an Amazon-like storefront using MySQL to store information about products and Inquirer npm package diplay/manipulate it in the command line.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anlawyer/bamazon.git"
+  },
+  "keywords": [
+    "online",
+    "store"
+  ],
+  "author": "alison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anlawyer/bamazon/issues"
+  },
+  "homepage": "https://github.com/anlawyer/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0",
+    "mysql": "^2.15.0"
+  }
+}
