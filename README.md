@@ -12,12 +12,12 @@ Running the manager file allows user to see all the products available, all prod
 
 Here is the database before the demonstration:
 
-![database before demonstration](./assets/before-demo)
+![database before demonstration](./assets/before-demo.png)
 
 Here's the demonstration:
 
-![demonstration](./assets/bamazonDemo)
+![demonstration](./assets/bamazonDemo.mov)
 
 Here's the database after the demonstration:
 
-![database after demonstration](./assets/after-demo)
+![database after demonstration](./assets/after-demo.png)
