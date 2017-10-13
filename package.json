@@ -4,7 +4,8 @@
   "description": "an Amazon-like storefront using MySQL to store information about products and Inquirer npm package diplay/manipulate it in the command line.",
   "main": "bamazonCustomer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mysql-import": "mysql -h 127.0.0.1 -u root -p < storeDB.sql"
   },
   "repository": {
     "type": "git",

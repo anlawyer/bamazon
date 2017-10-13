@@ -79,10 +79,26 @@ var completePurchase = function (item, amount) {
             if (err) throw err;
             console.log('Thanks for your purchase!');
             console.log('Your total is: $' + purchaseAmount);
-            connection.end();
+            postPurchase();
           }
         );
       }
     }
   );
+};
+
+var postPurchase = function () {
+  inquirer.prompt([
+    {
+      name: 'choice',
+      message: 'Would you like to purchase another item?',
+      type: 'confirm'
+    }
+  ]).then(function (answers) {
+    if (answers.choice) {
+      start();
+    } else {
+      connection.end();
+    }
+  });
 };
