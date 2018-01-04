@@ -1,8 +1,7 @@
 # bamazon
 
-A command line app using MySQL and Inquirer.
-An Amazon-like storefront app that takes in orders from customers and depletes
-stock from the store's inventory.
+This is a command line app using MySQL and Inquirer.
+It's an Amazon-like storefront app that takes in orders from customers and depletes stock from the store's inventory.
 
 Running the customer file will allow users to see every product available.
 You can purchase an item, input the quantity you want to buy, and the database will be updated.
