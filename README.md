@@ -16,7 +16,7 @@ Here is the database before the demonstration:
 
 Here's the demonstration:
 
-![demonstration](./assets/bamazonDemo.mov)
+![demonstration](./assets/bamazonDemo.gif)
 
 Here's the database after the demonstration:
 
